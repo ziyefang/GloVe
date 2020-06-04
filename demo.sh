@@ -15,7 +15,7 @@ make
   #rm text8.zip
 #fi
 
-CORPUS=patient0.txt
+CORPUS=patient_all.txt
 VOCAB_FILE=vocab.txt
 COOCCURRENCE_FILE=cooccurrence.bin
 COOCCURRENCE_SHUF_FILE=cooccurrence.shuf.bin
@@ -24,7 +24,7 @@ SAVE_FILE=vectors
 VERBOSE=2
 MEMORY=4.0
 VOCAB_MIN_COUNT=5
-VECTOR_SIZE=100
+VECTOR_SIZE=200
 MAX_ITER=15
 WINDOW_SIZE=15
 BINARY=2
